@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 class ListaDeCategorias extends Component{
     _handleEventoInput(event){
-        if (event.key == "Enter") {
+        if (event.key === "Enter") {
            let valorCategoria = event.target.value;
             this.props.adicionarCategoria(valorCategoria);
         }
