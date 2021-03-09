@@ -16,6 +16,7 @@ class App extends Component {
 
   render() {
     return (
+      <> 
       <section className="conteudo">
         <FormularioCadastro 
           categorias={this.categorias}
@@ -32,6 +33,7 @@ class App extends Component {
         </main>
         
       </section>
+      </>
     );
   }
 }

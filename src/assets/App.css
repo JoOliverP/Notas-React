@@ -3,6 +3,9 @@
 }
 .conteudo-principal{
   flex-grow: 3;
+  background-image: url(./imgs/fundo2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .lista-categorias{
   display: flex;
@@ -24,6 +27,9 @@
 }
 .lista-categorias_input{
   margin-right: 20px;
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: none;
 }
 :root {
   --primaria: #58a4b0;

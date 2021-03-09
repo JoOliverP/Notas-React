@@ -1,19 +1,28 @@
+.form-title{ 
+  align-self: center;
+  font-size: 30px;
+  font-weight: 800;
+  font-family: 'RocknRoll One', sans-serif;
+  color: rgb(33, 24, 34);
+}
 .form-cadastro {
-  flex-grow: 2;
+  flex-grow: 1;
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
   z-index: 1;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   padding: 12px 40px;
+  background-color: rgb(153, 142, 163);
 }
 .form-cadastro_input {
   margin-top: 8px;
   padding: 4px;
   border: none;
   background-color: var(--fundo-detalhes);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'RocknRoll One', sans-serif;
   font-weight: 100;
+  border-radius: 15px;
 }
 
 .form-cadastro_submit {
@@ -22,7 +31,13 @@
   background-color: var(--secundaria);
   color: white;
   font-weight: 400;
+  border-radius: 15px;
+  transition: 2s;
 }
+.form-cadastro_submit:hover{
+  background-color: #717fa0;
+}
+
 
 .form-cadastro_submit:active {
   background-color: var(--secundaria-ativa);

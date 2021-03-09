@@ -44,9 +44,11 @@ class FormularioCadastro extends Component {
 
   render() {
     return (
+      <>
       <form className="form-cadastro"
         onSubmit={this._criarNota.bind(this)}
       >
+        <h1 className="form-title">Notas-React</h1>
         <select 
         onChange={this._handleMudancaCategoria.bind(this)} 
         className="form-cadastro_input" >
@@ -71,6 +73,7 @@ class FormularioCadastro extends Component {
           Criar Nota
         </button>
       </form>
+      </>
     );
   }
 }
