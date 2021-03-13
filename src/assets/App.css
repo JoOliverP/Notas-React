@@ -38,3 +38,18 @@
   --fundo: #ffffff;
   --fundo-detalhes: #ececec;
 }
+
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width:100%;
+  }
+  .conteudo{
+    display: flex;
+    flex-direction: column;
+  }
+  .conteudo-principal{
+    flex-direction: column;
+  }
+  
+}

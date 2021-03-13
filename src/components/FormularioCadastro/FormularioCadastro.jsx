@@ -59,6 +59,7 @@ class FormularioCadastro extends Component {
         </select>
         <input
           type="text"
+          maxlength="10"
           placeholder="Título"
           className="form-cadastro_input"
           onChange={this._handleMudancaTitulo.bind(this)}

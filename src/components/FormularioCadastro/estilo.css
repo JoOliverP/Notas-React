@@ -42,3 +42,8 @@
 .form-cadastro_submit:active {
   background-color: var(--secundaria-ativa);
 }
+@media only screen and (max-width:620px) {
+  .form-cadastro {
+    min-height: 50%;
+  }
+}

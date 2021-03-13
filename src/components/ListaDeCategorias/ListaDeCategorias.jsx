@@ -32,6 +32,7 @@ class ListaDeCategorias extends Component{
             </ul>
             <input
               type="text"
+              maxlength="15"
               className="lista-categorias_input"
               placeholder="Adicionar Categoria"
               onKeyUp={this._handleEventoInput.bind(this)}
